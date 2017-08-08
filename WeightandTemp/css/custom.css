@@ -1,0 +1,169 @@
+body{
+    /* margin-top: 70px; */
+    background: #333;
+    /* color: #fff; */
+    font-family: 'Roboto', sans-serif;
+
+    color: #fff;
+}
+#header-container{
+    width: 500px;
+    height: 100px;
+    background: url(../images/header.png) no-repeat center; 
+}
+#main-container{
+    width: 500px;
+    height: 400px;
+    background: url(../images/bg.png) no-repeat center;
+    padding-top:10px;
+    padding-bottom: 20px;
+   
+}
+.col-xs-5, .col-xs-7{
+    /* border: 1px solid yellow; */
+    height: 370px;
+}
+#categories{
+    border: 1px solid white;
+    /* margin:2px; */
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 380px;
+}
+
+
+#output-container{
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    border: 1px solid white;
+    height: 380px;
+} 
+#output-container span{
+    color: gray;
+}
+
+#weight-button, #temp-button, #home {
+    width: 150px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+button#home {
+    margin-top: 80px;
+    width: 70px;
+}
+#select-weight{
+    color: #000;
+    width: 100px;
+    height:30px;
+}
+#input{
+    color: #000;
+}
+#tempinput{
+    color: #000;
+}
+#pounds-output, #grams-output, #kg-output, #ounce-output{
+    height:60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#pounds-output{
+border: 1px solid steelblue;
+}
+#grams-output{
+    border: 1px solid orangered;
+   
+}
+#kg-output{
+    border: 1px solid green;
+  
+}
+#ounce-output{
+    border: 1px solid orange;
+}
+#celcius-output, #fa-output, #kelvin-output{
+    height:60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#celcius-output{
+border: 1px solid steelblue;
+}
+#fa-output{
+    border: 1px solid orangered;
+   
+}
+#kelvin-output{
+    border: 1px solid green;
+  
+}
+  
+#select-temp{
+    color: #000;
+    width: 100px;
+    height:30px;
+}
+
+
+/* 
+
+
+#temp-img{
+    width: 50px;
+    height: 70px;
+     display: inline-block; 
+    margin-left: 35%;
+}
+
+#weight-img{
+    width: 50px;
+    height: 70px;
+    display: inline-block; 
+    margin-left: 5%;
+}
+
+#main-section{
+    border: 1px solid #000;
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+}
+
+button{
+    width: 200px;
+    height:50px;
+    margin-top: 10px;
+}
+
+#back-button{
+    position: absolute;
+    top: 700px;
+    left: 320px;
+    
+}
+
+#back-button button{
+font-size: 12px;
+width: 100px;
+height: 30px;
+}
+*/
+/* Weight Converter 
+#lbsInput{
+    width: 300px;
+    margin-left: 35px;
+}
+
+#output{
+    width: 300px;
+    color: #fff;
+    margin-left: 35px;
+} */

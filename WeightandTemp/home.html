@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Weight & Temterature Converter</title>
+</head>
+<body>
+    <div id="header-container" class="container-fluid"></div> 
+    <div id="main-container" class="container">
+        <div class="row">
+            
+            <div class="col-xs-5">
+                <div id="categories">
+                    <h3>Conversion</h3>
+                    <button id="weight-button" type="button" class="btn btn-primary"><i class="fa fa-balance-scale" aria-hidden="true"></i> Weight</button>
+                    <button id="temp-button" type="button" class="btn btn-danger"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Temperature</button>
+                    <button id="home" type="button" class="btn btn-success">Home</button>
+                </div><!-- categories -->
+            </div> <!-- col-xs-5 -->
+            
+            <div class="col-xs-7">
+                <div id="output-container">
+                    <div id="home-message">
+                        <p>Your conversion output will show up here.<br><br>
+                        Make a selection on the left<br><br>
+                        <<< <br><br><br><br><br><br>
+                        <span>This Application is built with love and inspiration gotten from Traversy Media.</span></p>
+                    </div><!-- home message -->
+                    
+
+                    <div id="weight-converter">
+                        <div id="weight-dropdown">
+                            <h4>Weight Converter</h4>
+                            <select id="select-weight"> 
+                                <option value="0">...</option>
+                                <option value="1">Pounds</option>
+                                <option value="2">Grams</option>
+                                <option value="3">Kilograms</option>
+                                <option value="4">Ounce</option>
+                            </select>
+                            <input id="input" type="number" value"" placeholder="Enter value...">
+                        </div> <!-- weight dropdown-->
+                
+                        <div id="output">
+                            <div id="pounds-output">
+                                <h5>Pounds (lbs) :</h5>
+                                <div id="poundsOutput"></div>
+                            </div>
+                            <div id="grams-output">
+                                <h5>Grams (g) :</h5>
+                                <div id="gramsOutput"></div>
+                            </div>
+                            <div id="kg-output">
+                                <h5>Kilograms (kg) :</h5>
+                                <div id="kgOutput"></div>
+                            </div>
+                            <div id="ounce-output">
+                                <h5>Ounce (oz) :</h5>
+                                <div id="ozOutput"></div>
+                            </div>
+                        </div><!--output-->
+                    </div> <!-- weight converter-->
+
+                    <div id="temp-converter">
+                        <div id="temp-dropdown">
+                            <h4>Temperature Converter</h4>
+                            <select id="select-temp"> 
+                                <option value="0">...</option>
+                                <option value="1">Celcius</option>
+                                <option value="2">Fahrenheit</option>
+                                <option value="3">Kelvin</option>
+                            </select>
+                            <input id="tempinput" type="number" placeholder="Enter value...">
+                        </div> <!-- temp dropdown-->
+                
+                        <div id="output">
+                            <div id="celcius-output">
+                                <h5>Celcius (c) :</h5>
+                                <div id="celciusOutput"></div>
+                            </div>
+                            <div id="fa-output">
+                                <h5>Fahrenheit (f) :</h5>
+                                <div id="faOutput"></div>
+                            </div>
+                            <div id="kelvin-output">
+                                <h5>Kelvin (k) :</h5>
+                                <div id="kelvinOutput"></div>
+                            </div>
+                        </div><!--output-->
+                    </div> <!-- temp converter-->
+                </div><!-- output container -->
+            </div> <!-- col-xs-7 -->
+        </div><!-- row -->
+    </div><!-- main-container -->
+     <script src="js/script.js"></script> 
+</body>
+</html>
