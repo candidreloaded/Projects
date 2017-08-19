@@ -1,0 +1,411 @@
+/***** Baseline *****/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+}
+/***** HEADER STYLING *****/
+#headerContainer{
+    background-color: #000;
+    width: 100%;
+    height: 300px;
+}
+.navbar-default{
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+}
+.navbar-right{
+   padding-top: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+   color: #07d4de;
+}
+.navbar-default .navbar-nav > li > a:hover {
+   color: #fff;
+   background-color: #07ded4;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+   background-color: #07ded4;
+   color: white;
+}
+.navbar-default .navbar-toggle {
+   border: none;
+}
+.navbar-default .navbar-toggle:hover {
+   background-color: #07ded4;
+}
+.navbar-toggle {
+   margin-top:30px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form  {
+   border-color:#07ded4;
+   text-align: center;
+}
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: #07ded4;
+}
+#aboutOlawale, #aboutText{
+    font-family: "lato", sans-serif;
+    color: #07d4de;
+    margin-top:7%;
+}
+#aboutText{
+    font-family: 'Raleway', sans-serif;
+    margin-top:0%;
+}
+/** Footer **/
+#footerButton{
+    background-color: #07ded4;
+    color: #000;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+#footerButton:hover{
+    background-color: #1fc1b9;
+}
+#bottomFooter{
+    width: 100%;
+    height: 300px; 
+    padding: 150px 100px;
+    color: #ccc;
+    background-color: #000;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+}
+ #footerLogo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2%;
+}
+.social{
+    font-size: 25px;
+    text-align: center;
+    padding-left:5px;
+}
+.social .fa{
+    padding-left: 5px;
+}
+a i{
+    color: #07ded4;
+}
+a i:hover{
+    color: white;
+}
+#copyright{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+font-size: 12px;
+} 
+
+/******************************************/
+/*            ABOUT PAGE              */
+/******************************************/
+
+/**** ARTICLE SECTION ****/
+
+#articleRow{
+    padding: 100px;
+}
+#sentence, #techniques{
+    text-align: justify;
+}
+.col-sm-6{
+    padding: 20px 30px 20px 30px;
+}
+.devIcon{
+    padding-left: 20px;
+    padding-bottom: 20px;
+} 
+/***************  END ABOUT PAGE  *****************/
+
+
+/******************************************/
+/*            CONTACT PAGE              */
+/******************************************/
+
+#contact{
+    background: url("../img/googlemaps.png") no-repeat center;
+    width: 100%;
+    height: 700px;
+    padding: 50px 300px;
+}
+.contact-form{
+    width: 700px;
+    padding: 20px 100px;
+    background-color:#07ded4;;
+}
+.star{
+    color: red;
+}
+/***************  END CONTACT PAGE *****************/
+
+
+
+
+
+
+
+
+/******************************************/
+/*            PORTFOLIO PAGE              */
+/******************************************/ 
+.portfolioBanner{
+    background: url("../img/web-bg") no-repeat center;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px; 
+    /* margin-bottom: 25px; */
+    /* padding: 60px 500px; */
+}
+.portfolioBanner > p{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+.portfolioContent{
+    padding: 15px;
+}
+ .col-sm-4, .col-xs-6, .col-sm-6, .col-xs-12{
+    /* border: 1px solid green;   */
+    margin-bottom: 20px;
+} 
+.screenshot, .webscreenshot, .logoscreenshot, .bannerscreenshot{
+    width: 100%;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+/* Testimonial */
+#testimonialContainer{
+    width: 100%;
+    height: 500px;
+    background: url("../img/background.jpg") no-repeat center;
+    padding: 7% 15%;
+    margin-bottom: 25px;
+}
+#itemRow{
+    padding: 0 20px;
+  
+}
+#testimonialText{
+    height: 300px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    font-family: 'raleway', sans-serif;
+}
+/************** END PORTFOLIO **************/
+
+
+
+
+
+
+/***************  MEDIA QUERY *****************/
+/***************  MEDIA QUERY *****************/
+/***************  MEDIA QUERY *****************/
+/***************  MEDIA QUERY *****************/
+
+
+/*****   LARGE DEVICES ONLY   *****/
+@media (min-width: 1024px) and (max-width: 1286px){ 
+/***************  ABOUT PAGE  *****************/
+    /* Header */
+    .navbar-brand{
+        width: 120px;
+        height:120px;  
+    }
+    .navbar-brand img{
+        width: 100px;
+        height:100px;  
+    }  
+    /***************  END ABOUT PAGE  *****************/
+} 
+/***** END OF LARGE DEVICES ONLY *****/
+
+
+
+/**** MEDIUM DEVICES ONLY ****/
+@media (min-width: 992px) and (max-width: 1023px){ 
+    /***************  ABOUT PAGE  *****************/
+    .navbar-brand{
+        width: 100px;
+        height:100px;  
+    }
+    .navbar-brand img{
+        width: 90px;
+        height: 90px;  
+    } 
+    /***************  END ABOUT PAGE  *****************/  
+} 
+/**** END OF MEDIUM DEVICES ONLY ****/
+
+
+
+/**** SMALL DEVICES ONLY ****/
+
+@media (min-width: 768px) and (max-width: 991px){
+    /***************  ABOUT PAGE  *****************/
+    .navbar-brand{
+        width: 90px;
+        height:90px;  
+    }
+    .navbar-brand img{
+        width: 80px;
+        height: 80px;  
+    } 
+    #articleRow{
+    padding: 50px;
+    }
+    #aboutOlawale{
+        font-family: "lato", sans-serif;
+        color: #07ded4;
+        margin-top:12%;
+    }
+    #aboutText{
+        font-family: 'Raleway', sans-serif;
+        margin-top:0%;
+    }
+    /***************  END ABOUT PAGE  *****************/
+}
+    /**** END OF SMALL DEVICES ONLY ****/
+
+
+
+/**** EXTRA SMALL DEVICES ONLY ****/
+@media (max-width: 767px){
+    /***************  ABOUT PAGE  *****************/
+     #headerContainer{
+        height: auto !important;
+    } 
+    .navbar-brand{
+        width: 80px;
+        height:80px;  
+    }
+    .navbar-brand img{
+        width: 60px;
+        height: 60px;  
+    } 
+    #articleRow{
+    padding: 5px;
+    }
+    #aboutOlawale{
+        font-family: "lato", sans-serif;
+        font-size: 30px;
+        color: #07ded4;
+        margin-top:20%;
+    }
+    #aboutText{
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        margin-top:0%;
+        padding: 0 15px;
+    }
+    hr {
+       border: 1px solid #07ded4;
+       margin: 6%;
+    }
+    /* footer */
+   #bottomFooter{
+        padding: 150px 50px;
+    }
+   
+    
+    /******** Portfolio Page ********/
+    .portfolioBanner{
+        height: 150px;
+        margin-top: 40px; 
+    }
+    .portfolioBanner > p{
+        font-size: 40px;
+        padding-top: 45px;
+    }
+    .screenshot{
+        height:484px;
+    }
+   
+    /* Testimonial */
+    #testimonialContainer{
+        height: 300px;
+        padding: 2% 15%;
+        margin-bottom: 15px;
+    }
+    #testimonialText{
+        height: 300px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+    /**** END OF EXTRA SMALL DEVICES ONLY ****/
+
+    /**** SUPER EXTRA SMALL DEVICES ONLY ****/
+    @media (max-width: 497px){  
+    /**** Header ****/
+    #headerContainer{
+        height: auto !important;
+    } 
+    .navbar-brand img{
+        width: 50px;
+        height: 50px;  
+    } 
+    #aboutOlawale{
+        font-size: 25px;
+        margin-top:20%;
+    }
+    #aboutText{
+        font-size: 12px;
+        padding: 0 15px;
+    }
+   
+    /* footer */
+    #bottomFooter{
+        height: 150px;
+        padding-top: 100px;
+        } 
+   
+    /******** PORTFOLIO PAGE  ********/
+    .portfolioContent{
+        padding: 15px 25px;
+    }
+    .portfolioBanner{
+        height: 80px;
+        margin-top: 30px; 
+    }
+    .portfolioBanner > p{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .col-xxs-12{
+        width: 100%;
+    }
+    .screenshot, .webscreenshot, .bannerscreenshot, .logoscreenshot{
+        height: auto;
+    }
+
+    /* Testimonial */
+    #testimonialContainer{
+        height: 300px;
+        padding: 1% 3%;
+        margin-bottom: 15px;
+    }
+    #testi{
+        font-size: 25px;
+    }
+    #testimonialText{
+        height: 150px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+   
+}
