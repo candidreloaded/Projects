@@ -1,4 +1,14 @@
-/***** Baseline *****/
+/********************************************************/
+/* Seems like someone is curious. Anyway You're welcome */
+/*              Author: Lamina Olawale                  */
+/*           Website: www.olawalelamina.com             */
+/*                                                      */
+/********************************************************/
+
+
+
+
+/***** BASELINE *****/
 *{
     padding: 0;
     margin: 0;
@@ -90,7 +100,7 @@
     margin-bottom: 2%;
 }
 .social{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding-left:5px;
 }
@@ -135,16 +145,11 @@ font-size: 12px;
 /*            CONTACT PAGE              */
 /******************************************/
 
-#contact{
-    background: url("../img/googlemaps.png") no-repeat center;
-    width: 100%;
-    height: 700px;
-    padding: 50px 300px;
-}
+
 .contact-form{
-    width: 700px;
-    padding: 20px 100px;
-    background-color:#07ded4;;
+    width: 100%;
+    padding: 20px 80px;
+    background-color:#07ded4;
 }
 .star{
     color: red;
@@ -162,10 +167,9 @@ font-size: 12px;
 /*            PORTFOLIO PAGE              */
 /******************************************/ 
 .portfolioBanner{
-    background: url("../img/web-bg") no-repeat center;
     width: 100%;
     height: 200px;
-    margin-top: 50px; 
+    /* margin-top: 50px;  */
     /* margin-bottom: 25px; */
     /* padding: 60px 500px; */
 }
@@ -174,12 +178,21 @@ font-size: 12px;
     color: #fff;
     padding-top: 70px;
 }
+#websiteBanner{
+    background: url("../img/web-bg.png") no-repeat center;
+}
+#graphicsBanner{
+    background: url("../img/graphics-bg.png");
+}
+
 .portfolioContent{
     padding: 15px;
+    background-color: #F9F6F6;
 }
  .col-sm-4, .col-xs-6, .col-sm-6, .col-xs-12{
     /* border: 1px solid green;   */
     margin-bottom: 20px;
+    
 } 
 .screenshot, .webscreenshot, .logoscreenshot, .bannerscreenshot{
     width: 100%;
@@ -231,6 +244,13 @@ font-size: 12px;
         height:100px;  
     }  
     /***************  END ABOUT PAGE  *****************/
+
+
+    /***************  CONTACT PAGE  *****************/
+
+    #contact{
+        padding: 10% 20%;
+    }
 } 
 /***** END OF LARGE DEVICES ONLY *****/
 
@@ -238,6 +258,9 @@ font-size: 12px;
 
 /**** MEDIUM DEVICES ONLY ****/
 @media (min-width: 992px) and (max-width: 1023px){ 
+    .social{
+        font-size: 25px;
+    }
     /***************  ABOUT PAGE  *****************/
     .navbar-brand{
         width: 100px;
@@ -247,7 +270,15 @@ font-size: 12px;
         width: 90px;
         height: 90px;  
     } 
-    /***************  END ABOUT PAGE  *****************/  
+    /***************  END ABOUT PAGE  *****************/
+    
+    /***************  CONTACT PAGE  *****************/
+    #contact{
+        padding: 10% 20%;
+    }
+    .contact-form{
+        padding: 20px 70px;
+    }
 } 
 /**** END OF MEDIUM DEVICES ONLY ****/
 
@@ -256,6 +287,9 @@ font-size: 12px;
 /**** SMALL DEVICES ONLY ****/
 
 @media (min-width: 768px) and (max-width: 991px){
+    .social{
+        font-size: 25px;
+    }
     /***************  ABOUT PAGE  *****************/
     .navbar-brand{
         width: 90px;
@@ -278,6 +312,15 @@ font-size: 12px;
         margin-top:0%;
     }
     /***************  END ABOUT PAGE  *****************/
+
+    /***************  CONTACT PAGE  *****************/
+    #contact{
+        padding: 10% 15%;
+    }
+    .contact-form{
+        padding: 20px 50px;
+    }
+   
 }
     /**** END OF SMALL DEVICES ONLY ****/
 
@@ -285,6 +328,9 @@ font-size: 12px;
 
 /**** EXTRA SMALL DEVICES ONLY ****/
 @media (max-width: 767px){
+    .social{
+        font-size: 25px;
+    }
     /***************  ABOUT PAGE  *****************/
      #headerContainer{
         height: auto !important;
@@ -322,7 +368,7 @@ font-size: 12px;
     }
    
     
-    /******** Portfolio Page ********/
+    /******** PORTFOLIO PAGE ********/
     .portfolioBanner{
         height: 150px;
         margin-top: 40px; 
@@ -331,10 +377,7 @@ font-size: 12px;
         font-size: 40px;
         padding-top: 45px;
     }
-    .screenshot{
-        height:484px;
-    }
-   
+  
     /* Testimonial */
     #testimonialContainer{
         height: 300px;
@@ -346,11 +389,22 @@ font-size: 12px;
         font-size: 13px;
         line-height: 20px;
     }
+
+    /******** CONTACT PAGE ********/
+    #contact{
+        padding: 10% 10%
+    }
+    .contact-form{
+        padding: 20px 50px;
+    }
 }
     /**** END OF EXTRA SMALL DEVICES ONLY ****/
 
     /**** SUPER EXTRA SMALL DEVICES ONLY ****/
-    @media (max-width: 497px){  
+    @media (max-width: 497px){ 
+        .social{
+            font-size: 25px;
+        } 
     /**** Header ****/
     #headerContainer{
         height: auto !important;
@@ -406,6 +460,14 @@ font-size: 12px;
         height: 150px;
         font-size: 11px;
         line-height: 15px;
+    }
+
+    /******** CONTACT PAGE  ********/
+    #contact{
+        padding: 10% 5%;
+    }
+    .contact-form{
+        padding: 20px 40px;
     }
    
 }

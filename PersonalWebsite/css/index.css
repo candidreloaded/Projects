@@ -331,7 +331,7 @@ body {
     }
     /* Social Icons*/
     .social{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         padding-left:5px;
         margin-top: 20%;
@@ -408,7 +408,7 @@ body {
         }
         /* Social Icons*/
         .social{
-            font-size: 20px;
+            font-size: 25px;
             text-align: center;
             padding-left:5px;
             margin-top: 20%;
@@ -467,7 +467,7 @@ body {
 
         /*button*/
         .wrap{
-            padding-left:22%;
+            padding-left: 15%;
             padding-top: 40px;
         }
         .button {
@@ -483,7 +483,7 @@ body {
         }
         /* Social Icons*/
         .social{
-            font-size: 20px;
+            font-size: 25px;
             text-align: center;
             padding-left:5px;
             margin-top: 40%;
