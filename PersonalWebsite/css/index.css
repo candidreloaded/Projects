@@ -278,7 +278,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px){
     #container{
-        background: url("../img/991x500.jpg") no-repeat center;
+        background: url("../img/991X500.jpg") no-repeat center;
         height: 700px;  
         width: 100%;
     }
