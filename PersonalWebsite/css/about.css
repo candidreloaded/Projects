@@ -157,10 +157,29 @@ font-size: 12px;
 /***************  END CONTACT PAGE *****************/
 
 
+/******************************************/
+/*            HIRE PAGE              */
+/******************************************/
+#hire{
+    padding: 10% 15%;
+    border: 1px solid red;
+}
+.hire-form > *{
+    padding: 10px;
+}
 
+.hire-form{
+    background: #07ded4;
+}
+.formGroup{
+    background: #B0F3F0
+}
 
-
-
+/* .half{
+    float: left;
+    /* margin: 10px;
+    width: 45%; 
+}*/
 
 
 /******************************************/
@@ -219,6 +238,7 @@ font-size: 12px;
     font-family: 'raleway', sans-serif;
 }
 /************** END PORTFOLIO **************/
+
 
 
 
