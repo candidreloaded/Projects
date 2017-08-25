@@ -14,6 +14,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
 	<title>Hire Olawale</title>
 </head>
 
@@ -43,98 +48,69 @@
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
-    <h1 id="aboutOlawale" class="text-center">Hire Olawale</h1>
-    <p id="aboutText" class="text-center"> Let's talk about your project</p> 
+    <h1 id="aboutOlawale" class="text-center animated bounceInLeft">Hire Olawale</h1>
+    <p id="aboutText" class="text-center animated bounceInRight"> Let's talk about your project</p> 
 </header> <!-- End Header -->
     
-<!-- <div id="this"><p>i want this on top of the map</p></div>-->
-<div id="hire">
-  
-        <form class="hire-form" method="post">
-            <p>To make enquiry about hiring me, kindly fill out the form below.<br> If you want to know more about me or how i work and the value I can bring to your project, please visit <a href="about.html">about</a> or to see my previous works, view my <a href="portfolio.html">portfolio</a>.<br><br>
-                For general messages and/or feedback, please use the <a href="contact.html">contact form</a>.</p><br>
+<div class="container" id="hire">
+     <form class="hire-form animated " method="post">
+        <p>To make enquiry about hiring me, kindly fill out the form below.<br> If you want to know more about me or how i work and the value I can bring to your project, please visit <a href="about.html">about</a> or to see my previous works, view my <a href="portfolio.html">portfolio</a>.<br><br>
+                For general messages and/or feedback, please use the <a href="contact.html">contact form</a>.</p>
+       <div class="formGroup row">
+           <div class="col-xs-6">
+                <p>
+                <label>Your Name</label><span class="star">*</span>
+                <input type="text" class="form-control" id="name" name="name" required="" >
+                </p>
+            </div>
+            <div class="col-xs-6">
+                <p>
+                <label>Company</label>
+                <input type="text" class="form-control" id="company" name="company">
+                </p>  
+            </div>
+             <div class="col-xs-6">
+                <p>
+                <label>Email Address<span class="star">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" required="">
+                </p>
+            </div>
+            <div class="col-xs-6">
+                <p>
+                <label>Phone Number</label>
+                <input type="tel" class="form-control" id="tel" name="phone">
+                </p>
+            </div>
+            <div class="col-xs-6">
+                <p>
+                <label>Your Website</label>
+                <input type="url" class="form-control" id="web" name="web">
+                </p>
+            </div>
+            <div class="col-xs-6">
+                <p>
+                <label>How did you hear about me?</label>
+                <input type="url" class="form-control" id="reffered" name="referred">
+                </p>  
+            </div>
+            <div class="col-xs-12">
+                <h4>Project Details</h4><br>
+                <p>Please briefly tell me about your project, what you aim to achieve, what you'd expect from me, and any link to appropriate materials (such as PSDs available via Dropbox, google cloud etc).</p>
+                <p>
+                <label>Message<span class="star">*</span></label>
+                <textarea type="text" class="form-control" id="message" name="message" required="" rows="5"></textarea>
+                </p>
+            </div>
+            <div class="col-xs-12">
+                <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send Message</button>
+            </div>
             
-           
             
-            <div class="formGroup row">
-                <h4>About You</h4><br> 
-                <div class="col-xs-6">
-                    <p>
-                        <label>Your Name</label><span class="star">*</span>
-                        <input type="text" class="form-control" id="name" name="name" required="" autofocus="">
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                        <p>
-                            <label>Company</label>
-                            <input type="text" class="form-control" id="company" name="company" autofocus="">
-                        </p>  
-                    </div>
-                <div class="col-xs-6">
-                    <p>
-                        <label>Email Address<span class="star">*</span></label>
-                        <input type="email" class="form-control" id="email" name="email" required="" autofocus="">
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                    <p>
-                        <label>Phone Number</label>
-                        <input type="tel" class="form-control" id="tel" name="phone" autofocus="">
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                    <p>
-                        <label>Your Website</label>
-                        <input type="url" class="form-control" id="web" name="web" placeholder="e.g www.laminaolawale.com" autofocus="">
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                    <p>
-                        <label>How did you hear about www.laminaolawale.com?</label>
-                        <input type="url" class="form-control" id="reffered" name="reffered" autofocus="">
-                    </p>  
-                </div>
-                <div class="col-xs-12">
-                    <h4>Project Details</h4><br>
-                    <p>Please briefly tell me about your project, what you aim to achieve, what you'd expect from me, and any link to appropriate materials (such as PSDs available via Dropbox, google cloud etc).</p>
-                    <p>
-                        <label>Message<span class="star">*</span></label>
-                        <textarea type="text" class="form-control" id="message" name="message" required="" autofocus="" rows="10"></textarea>
-                    </p>
-                </div>
-                <div class="col-xs-12">
-                    <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send Message</button>
-                </div>
-                
-                
-            </div><!-- /formGroup -->
-            
-        </form>    
-            <!-- //////////////////////////////////////////// -->
-        <!-- <form>
-            <p>Your Name<span class="star">*</span>
-                <input type="text" class="form-control" id="name" name="name" placeholder="e.g Lamina Olawale" required="" autofocus="">
-            </p>
-            <input type="email" class="form-control" id="email" name="email" placeholder="e.g hi@laminaolawale.com" required="" autofocus="">
-            <p>Email Address<span class="star">*</span>
-                <input type="email" class="form-control" id="email" name="email" placeholder="e.g hi@laminaolawale.com" required="" autofocus="">
-            </p>
-            <p> Prefered Contact
-                <input type="" class="form-control" id="web" name="website" placeholder="e.g Telephone number or Skype/Google Hangouts username" autofocus="">
-            </p>
+        </div><!-- /formGroup -->
+    </form>   
+</div><!-- /hire -->
 
-            
-            <p>Your Website
-                <span><input type="url" class="form-control" id="web" name="website" placeholder="e.g laminaolawale.com" autofocus=""></span>
-            </p><br>
-            <h4>Message<span class="star">*</span></h4>
-            <textarea class="form-control textarea-contact" rows="5" id="message" name="message" placeholder="Type Your Message / Feedback here..." required=""></textarea><br>
-            <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send Message</button>
-        
-        </form> -->
-  
-</div> <!-- /hire -->
-<a  href=""><button id="footerButton" class="btn btn-primary">LET'S TALK ABOUT YOUR PROJECT</button></a>
+<a  href=""><button id="footerButton" class="btn btn-primary">VIEW PORTFOLIO</button></a>
 <footer id="bottomFooter">
     <img id="footerLogo" src="img/logo9.png" alt="Logo">
     <div class="social">

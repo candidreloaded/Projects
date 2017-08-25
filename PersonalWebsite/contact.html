@@ -14,6 +14,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
 	<title>Contact Olawale</title>
 </head>
 
@@ -37,17 +42,16 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="#">Articles</a></li>
                     <li class="active"><a href="#">Contact</a></li>
-                    <li><a href="#">Hire Me</a></li>
+                    <li><a href="hire.html">Hire Me</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
-    <h1 id="aboutOlawale" class="text-center">Contact Olawale</h1>
-    <p id="aboutText" class="text-center"> Send a general message / Feedback</p> 
+    <h1 id="aboutOlawale" class="text-center animated bounceInLeft">Contact Olawale</h1>
+    <p id="aboutText" class="text-center animated bounceInRight"> Send a general message / Feedback</p> 
 </header> <!-- End Header -->
     
-<!-- <div id="this"><p>i want this on top of the map</p></div>-->
 <div id="contact" class="row">
     <div class="col-xs-12">
         <form class="contact-form" method="post">
@@ -55,16 +59,16 @@
             <h4>About You</h4><br>
             
             <p>Your Name<span class="star">*</span>
-                <input type="text" class="form-control" id="name" name="name" placeholder="e.g Lamina Olawale" required="" autofocus="">
+                <input type="text" class="form-control" id="name" name="name" required="">
             </p>
             <p>Email Address<span class="star">*</span>
-                <input type="email" class="form-control" id="email" name="email" placeholder="e.g hi@laminaolawale.com" required="" autofocus="">
+                <input type="email" class="form-control" id="email" name="email" required="">
             </p>
             <p>Your Website
-                <input type="url" class="form-control" id="web" name="website" placeholder="e.g laminaolawale.com" autofocus="">
+                <input type="url" class="form-control" id="web" name="website">
             </p><br>
             <h4>Message<span class="star">*</span></h4>
-            <textarea class="form-control textarea-contact" rows="5" id="message" name="message" placeholder="Type Your Message / Feedback here..." required=""></textarea><br>
+            <textarea class="form-control textarea-contact" rows="5" id="message" name="message" required=""></textarea><br>
             <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send Message</button>
         
         </form>
