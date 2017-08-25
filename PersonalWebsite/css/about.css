@@ -109,6 +109,12 @@
     height: 60px;
     margin-bottom: 2%;
 }
+#footerLogo:hover{
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
 .social{
     font-size: 30px;
     text-align: center;
@@ -116,6 +122,12 @@
 }
 .social .fa{
     padding-left: 5px;
+}
+.fa:hover {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 a i{
     color: #07ded4;
@@ -148,6 +160,12 @@ font-size: 12px;
     padding-left: 20px;
     padding-bottom: 20px;
 } 
+.devIcon:hover{
+        -webkit-animation-name: shake;
+        animation: shake;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+}
 /***************  END ABOUT PAGE  *****************/
 
 
