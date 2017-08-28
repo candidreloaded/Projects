@@ -553,7 +553,12 @@ figcaption{
     }
     figcaption{
         font-size: 12px;
+        overflow: hidden;
     }
+    #H4{
+        visibility: hidden;
+    }
+
 
     /* TESTIMONIAL */
     #testimonialContainer{
