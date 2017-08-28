@@ -532,10 +532,10 @@ font-size: 12px;
     }
     .portfolioBanner{
         height: 80px;
-        margin-top: 30px; 
+        /* margin-top: 30px;  */
     }
     .portfolioBanner > p{
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 20px;
     }
     .col-xxs-12{
