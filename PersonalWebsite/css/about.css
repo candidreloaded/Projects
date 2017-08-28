@@ -272,11 +272,21 @@ font-size: 12px;
 }
  .col-sm-4, .col-xs-6, .col-sm-6, .col-xs-12{
     /* border: 1px solid green;   */
-    /* margin-bottom: 20px;  */
+    margin-bottom: 20px; 
 } 
 .screenshot, .webscreenshot, .logoscreenshot, .bannerscreenshot{
     width: 100%;
     /* box-shadow: 1px 1px 5px 0px; */
+}
+figcaption{
+    text-align: justify;
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.tools, .h4{
+    color: yellow;
 }
 
 
@@ -286,7 +296,7 @@ font-size: 12px;
     height: 500px;
     background: url("../img/background.jpg") no-repeat center;
     padding: 7% 15%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 #itemRow{
     padding: 0 20px;
@@ -543,6 +553,9 @@ font-size: 12px;
     }
     .screenshot, .webscreenshot, .bannerscreenshot, .logoscreenshot{
         height: auto;
+    }
+    figcaption{
+        font-size: 13px;
     }
 
     /* Testimonial */
