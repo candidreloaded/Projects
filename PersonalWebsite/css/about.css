@@ -230,35 +230,55 @@ font-size: 12px;
 /******************************************/
 /*            PORTFOLIO PAGE              */
 /******************************************/ 
-.portfolioBanner{
-    width: 100%;
-    height: 200px;
+#websiteSec, #websiteBanner{
+    background: #07ded4; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #07ded4 0%, #07ded4 28%, #62f7cf 53%);
+    background: -webkit-linear-gradient(-45deg, #07ded4 0%,#07ded4 46%,#62f7cf 67%,#62f7cf 100%);
 }
+#logoBanner, #logoSec{
+    /* background: url("../img/logo-bg.png"); */
+    background: #e309ea;
+    background: -moz-linear-gradient(-45deg, #e309ea 0%, #b146b5 23%, #515bcc 100%);
+    background: -webkit-linear-gradient(-45deg, #e309ea 0%, #b146b5 23%, #515bcc 100%);
+}
+
+#graphicsBanner, #graphicSec{
+    /* background: url("../img/graphics-bg.png"); */
+    background: #ff8000;
+    background: -moz-linear-gradient(-45deg, #ff8000 0%, #ffba75 59%, #f7da00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ff8000 0%,#ffba75 59%,#f7da00 100%); /* Chrome10-25,Safari5.1-6 */
+}
+
+.portfolioBanner{
+    /* visibility: hidden; */
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    /* -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s; */
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s; 
+    width: 100%;
+    height: 150px;
+}
+
 .portfolioBanner > p{
     font-size: 50px;
     color: #fff;
-    padding-top: 70px;
+    padding-top: 40px;
 }
-#websiteBanner{
-    background: url("../img/web-bg.png") no-repeat center;
-}
-#graphicsBanner{
-    background: url("../img/graphics-bg.png");
-}
-
 .portfolioContent{
-    padding: 15px;
+    padding: 50px;
     background-color: #F9F6F6;
 }
  .col-sm-4, .col-xs-6, .col-sm-6, .col-xs-12{
     /* border: 1px solid green;   */
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
 } 
 .screenshot, .webscreenshot, .logoscreenshot, .bannerscreenshot{
     width: 100%;
-    box-shadow: 1px 1px 5px 0px;
+    /* box-shadow: 1px 1px 5px 0px; */
 }
+
 
 /* Testimonial */
 #testimonialContainer{
@@ -432,12 +452,19 @@ font-size: 12px;
     
     /******** PORTFOLIO PAGE ********/
     .portfolioBanner{
-        height: 150px;
-        margin-top: 40px; 
+        height: 100px;
+        margin-top: 0px; 
+        padding-top: 0px;
     }
     .portfolioBanner > p{
-        font-size: 40px;
-        padding-top: 45px;
+        font-size: 30px;
+        padding-top: 35px;
+    }
+    .portfolioContent{
+        text-align: center;
+    }
+    #portfolioRow{
+
     }
   
     /* Testimonial */

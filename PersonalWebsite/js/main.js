@@ -17,6 +17,14 @@
     
 })();
 
+// var portfolioBanner = document.querySelector(".portfolioBanner"); 
+//      portfolioBanner.style.visibility = "visible";
+    //  .css({
+//     border: '2px solid red;',
+//     background-color: 'rgb(255, 125, 115)'
+//     });
+
+
 //Portfolio caption code
 /*$(document).ready(function(){
    
@@ -42,17 +50,17 @@ $(document).ready(function(){
   });
  });*/
 
- $(document).ready(function(){
-    $(".columns-3").hover(
-        function(){
-        $( this ).find(".caption").slideUp(250);
-    }, 
-    function(){
-        $( this ).find(".caption").slideDown(250);
-    }
-    );
+//  $(document).ready(function(){
+//     $(".columns-3").hover(
+//         function(){
+//         $( this ).find(".caption").slideUp(250);
+//     }, 
+//     function(){
+//         $( this ).find(".caption").slideDown(250);
+//     }
+//     );
 
 
 
 
- });
+//  });
