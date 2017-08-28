@@ -272,7 +272,7 @@ font-size: 12px;
 }
  .col-sm-4, .col-xs-6, .col-sm-6, .col-xs-12{
     /* border: 1px solid green;   */
-    margin-bottom: 20px; 
+    /* margin-bottom: 20px;  */
 } 
 .screenshot, .webscreenshot, .logoscreenshot, .bannerscreenshot{
     width: 100%;
