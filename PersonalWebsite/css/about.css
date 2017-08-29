@@ -494,9 +494,13 @@ figcaption{
     }
 
     /***************  HIRE PAGE  *****************/
+     #hire{
+        padding: 10% 5%;
+    }
     .col-xs-6{
         width: 100%;
     }
+   
    
 }
     /**** END OF EXTRA SMALL DEVICES ONLY ****/
@@ -581,10 +585,14 @@ figcaption{
         padding: 10% 5%;
     }
     .contact-form{
-        padding: 20px 40px;
+        padding: 20px 10px;
+    }
+    .btn-default{
+       width: 100%;
     }
 
     /***************  HIRE PAGE  *****************/
+   
     .hire-form > *{
         padding: 10px;
     }
