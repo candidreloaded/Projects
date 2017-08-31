@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+$bg-color: #333;
+$font-color: #fff;
+$font: 'Roboto', sans-serif;
+$primary-color: #008ed6;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 25px;
+
+body{
+    background: $bg-color;
+    color: $font-color;
+    font-family: $font;
+}
+.navbar{
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.7;
+}
+
+//Home Section
+
+#home-section{
+    background: url("../img/social.jpg") no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .dark-overlay{
+        background: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        min-height: 700px;
+    }
+    .home-inner{
+        padding-top: 150px;
+    }
+    .card-form{
+        opacity: 0.7;
+    }
+    .fa{
+        font-size: $icon-size;
+        color: $primary-color;
+        border-radius: 5px;
+        background: #fff;
+        padding: 4px;
+    }
+    .btn-outline-light:hover{
+        background: $primary-color;
+        transition: ease-out 2s;
+    }
+}
+
+//Explore and Section
+#explore-section, #share-section{
+    .fa{
+        font-size: $icon-size;
+        color: #fff;
+        border-radius: 5px;
+        background: #333;
+        padding: 4px; 
+    }
+    
+}
+
+//Create Section
+#create-section{
+    .fa{
+        font-size: $icon-size;
+        color: $primary-color;
+        border-radius: 5px;
+        background: #fff;
+        padding: 4px;
+    }   
+}
+
+//Medium Screen
+@media (min-width: 768px)and(max-width: 991px){
+    #home-section{
+        display: block;
+    }
+    .card-form{
+        margin-bottom: 20px;
+    }
+    #explore-head-section{
+        padding-top: 300px;  
+    }
+}
+//Small Screens
+@media (max-width: 767px){
+    #explore-head-section{
+        padding-top: 400px;  
+    }
+    .card-form{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px){
+    #explore-head-section{
+        padding-top: 350px;  
+    }
+    .card-form{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 555px){
+    #explore-head-section{
+        padding-top: 400px;  
+    }
+    .card-form{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 454px){
+    #explore-head-section{
+        padding-top: 470px;  
+    }
+    .card-form{
+        margin-bottom: 20px;
+    }
+}

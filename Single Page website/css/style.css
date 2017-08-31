@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+body {
+  background: #333;
+  color: #fff;
+  font-family: "Roboto", sans-serif; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.7; }
+
+#home-section {
+  background: url("../img/social.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.7; }
+  #home-section .fa {
+    font-size: 25px;
+    color: #008ed6;
+    border-radius: 5px;
+    background: #fff;
+    padding: 4px; }
+  #home-section .btn-outline-light:hover {
+    background: #008ed6;
+    transition: ease-out 2s; }
+
+#explore-section .fa, #share-section .fa {
+  font-size: 25px;
+  color: #fff;
+  border-radius: 5px;
+  background: #333;
+  padding: 4px; }
+
+#create-section .fa {
+  font-size: 25px;
+  color: #008ed6;
+  border-radius: 5px;
+  background: #fff;
+  padding: 4px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #home-section {
+    display: block; }
+  .card-form {
+    margin-bottom: 20px; }
+  #explore-head-section {
+    padding-top: 300px; } }
+
+@media (max-width: 767px) {
+  #explore-head-section {
+    padding-top: 400px; }
+  .card-form {
+    margin-bottom: 20px; } }
+
+@media (max-width: 575px) {
+  #explore-head-section {
+    padding-top: 350px; }
+  .card-form {
+    margin-bottom: 20px; } }
+
+@media (max-width: 555px) {
+  #explore-head-section {
+    padding-top: 400px; }
+  .card-form {
+    margin-bottom: 20px; } }
+
+@media (max-width: 454px) {
+  #explore-head-section {
+    padding-top: 470px; }
+  .card-form {
+    margin-bottom: 20px; } }
