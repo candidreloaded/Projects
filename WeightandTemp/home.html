@@ -9,35 +9,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/custom.css">
-    <title>Weight & Temterature Converter</title>
+    <title>Weight &amp; Temterature Converter</title>
 </head>
 <body>
-    <div id="header-container" class="container-fluid"></div> 
     <div id="main-container" class="container">
+        <h1 class="text-center">Weight And Temperature Converter</h1>
         <div class="row">
             
-            <div class="col-xs-5">
+            <div class="col-sm-5">
                 <div id="categories">
-                    <h3>Conversion</h3>
-                    <button id="weight-button" type="button" class="btn btn-primary"><i class="fa fa-balance-scale" aria-hidden="true"></i> Weight</button>
-                    <button id="temp-button" type="button" class="btn btn-danger"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Temperature</button>
-                    <button id="home" type="button" class="btn btn-success">Home</button>
+                    <h3>Select Your Conversion</h3>
+                    <button id="weight-button" type="button" class="btn btn-primary"><i class="fa fa-balance-scale" aria-hidden="true"></i> WEIGHT</button>
+                    <button id="temp-button" type="button" class="btn btn-danger"><i class="fa fa-thermometer-full" aria-hidden="true"></i> TEMPERATURE</button>
+                    <button id="home" type="button" class="btn btn-success">RESET</button>
                 </div><!-- categories -->
             </div> <!-- col-xs-5 -->
             
-            <div class="col-xs-7">
+            <div class="col-sm-7">
                 <div id="output-container">
                     <div id="home-message">
-                        <p>Your conversion output will show up here.<br><br>
-                        Make a selection on the left<br><br>
-                        <<< <br><br><br><br><br><br>
-                        <span>This Application is built with love and inspiration gotten from Traversy Media.</span></p>
+                        <h1>Output Area</h1>
+                        <p>Handmade by <a href="https://candidreloaded.github.io/Projects/PersonalWebsite/index.html">Lamina Olawale</a></p>
                     </div><!-- home message -->
                     
 
                     <div id="weight-converter">
                         <div id="weight-dropdown">
-                            <h4>Weight Converter</h4>
+                            <h3>Weight Converter</h3>
                             <select id="select-weight"> 
                                 <option value="0">...</option>
                                 <option value="1">Pounds</option>
@@ -70,7 +68,7 @@
 
                     <div id="temp-converter">
                         <div id="temp-dropdown">
-                            <h4>Temperature Converter</h4>
+                            <h3>Temperature Converter</h3>
                             <select id="select-temp"> 
                                 <option value="0">...</option>
                                 <option value="1">Celcius</option>
