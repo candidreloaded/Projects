@@ -3,7 +3,25 @@ $(window).load(function(){
     $('#page_loader').hide(function(){
         $('$intro_page').slideUp(10000);
     });
+
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        singleItem:false,
+        navigationText:["",""],
+        autoPlay:true
+    });
 });
+
+
+    
+            
+
 
 // (function() {
 
