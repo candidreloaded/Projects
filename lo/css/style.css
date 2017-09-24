@@ -125,8 +125,8 @@ body{
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.85;
-  margin-bottom: 5%;
-  border: 1px solid red;
+  /* margin-bottom: 5%; */
+  /* border: 1px solid red; */
 }
 
 /*  NAVIGATION BAR */ 
@@ -138,7 +138,7 @@ body{
   background: transparent;
   /* position: fixed; */
   z-index: 9999;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 .burg-toggle {
   background: transparent;
@@ -341,7 +341,7 @@ body{
     height: 400px;
     text-align: center;
     margin-top: 200px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
  #logo{
@@ -505,19 +505,33 @@ body{
     letter-spacing: 5px;
 }
 
+/***** Section-Block ******/
+
+#section-block{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 300%;
+  font-family: "raleway", sans-serif;
+  color: #000;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid red;
+}
+
 /*  SECTION - 1 */ 
 
 #section-1, #section-1-row,{
   z-index: -9999;
 }
 
-#section-1 h2{
+/* #section-1 h2{
   padding-bottom: 50px;
   text-align: center;
   color: #797474;
   font-family: 'raleway', Helvetica, sans-serif;
   z-index: -9999;
-}
+} */
 
 .section-1-port{
   box-sizing: border-box;
@@ -869,8 +883,7 @@ font-size: 12px;
 
   .wrap{
     padding: 15px;
-    width: 100%; 
-    border: 2px solid orange; 
+    width: 100%;  
     text-align: center;
   }
   #button2{
@@ -919,44 +932,31 @@ font-size: 12px;
 
   .col-sm-12 > h3{
     font-size: 14px;
-    /* padding-bottom: 50px; */
+   
     line-height: 20px;
   }
 }
 
 @media (max-width: 448px){
 
+  .container-fluid{
+    height: 600px;
+  }
+  
   #logo{
     width: 50px;
     height: 50px; 
 } 
 
-.col-sm-12{
-  height: 400px;
-  text-align: center;
-  margin-top: 100px;
-}
-  
- /* .btn{
-      padding: 20px 40px;
-      border-radius: 0;
-      width: 250px;
-      text-decoration: none;
-      color: #fff;
-      border: 1px solid #fff;
-  }   */
-
-  /* .wrap{
-    padding: 15px;
-    width: 100%; 
-    border: 2px solid orange; 
+  .col-sm-12{
+    height: 400px;
     text-align: center;
+    margin-top: 100px;
   }
-  #button2{
-      margin-left: 5px;
-      margin-top: 5%;
-  } */
 
+  #section-block h2{
+    font-size: 60%;
+  }
 
   .col-sm-12 > h1{
     font-size: 200%;
