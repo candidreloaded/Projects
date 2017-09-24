@@ -9,7 +9,7 @@ html *, html *:before, html *:after {
 body{
     width: 100%;
     font-family: 'lato', sans-serif;
-     /* overflow-y: hidden; */
+     overflow-y: auto;
     overflow-x: hidden;
     /* background: #000; */
 }
@@ -1012,7 +1012,7 @@ font-size: 12px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
+@media (min-width:498px) and (max-width: 575px) {
   .container-fluid{
     background-attachment: scroll;
   }
@@ -1045,7 +1045,7 @@ font-size: 12px;
 
   #wrap-2{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px 70px;
   }
   #button3{
@@ -1147,6 +1147,135 @@ font-size: 12px;
   } */
 }
 
+@media (max-width: 497px){
+
+  .container-fluid{
+    background-attachment: scroll;
+  }
+  .col-sm-12 > h1{  
+    font-size: 3.2em;
+    /* border: 2px solid red;  */
+  }
+
+  .col-sm-12 > h3{
+      font-size: 1em;
+      padding-bottom: 50px;
+      letter-spacing: 1px;
+  }
+
+  .btn{
+      display: block;
+      width: 100%;
+  } 
+
+  .wrap{
+      padding: 0 50px;
+      /* border: 2px solid red; */
+      /* text-align: center; */
+  }
+
+  #button2{
+    margin-top: 30px;
+    margin-left: 1px;
+  }
+
+#wrap-2{
+    max-width: 497px;
+    /* border: 1px solid red; */
+    padding: 5% 12%;
+  }
+
+
+  
+  #button3{
+    width: 350px;
+    text-align: center;
+    position: relative;
+  } 
+  
+  #wrap-2 a{
+    font-size: 10px;
+  }
+
+  #section-2{
+    height: 100%;
+    background-attachment: scroll;
+    
+  }
+
+  #section-2 > .row{
+    text-align: center;
+  }
+  
+  #overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -9999;
+    padding: 0 100px 50px 100px;
+  }
+  
+  #overlay h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'raleway', Helvetica, sans-serif;
+    z-index: -9999;
+  }
+  
+  .section-2-col{
+    text-align: center;
+    width: 100%;
+    z-index: -9999;
+  }
+  
+  .section-2-icon{
+    border: 1px solid #07d4de;
+    color: #07d4de;
+    padding: 15%;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    z-index: -9999;
+  }
+  
+  .section-2-icon:hover{
+    border: none;
+    background-color: #07d4de;
+    transition: ease-in 0.2s;
+    color: #fff;
+  }
+  
+  .section-2-col h3{
+    padding-bottom: 15px;
+    z-index: -9999;
+  }
+
+  #section-4{
+    height: 900px;
+    background-attachment: scroll;
+  }
+
+   #testimonial-overlay{
+   /* position: relative;
+    width: 100%;
+    height: 100%;*/
+    background: rgba(0,0,0,0.5);
+    /* z-index: -9999; */
+  } 
+  
+  #testimonial-overlay h2{
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .owl-theme .owl-controls{
+    margin-top: 25px; 
+  }
+
+}
 
 
 
