@@ -555,22 +555,25 @@ body{
 /********** section-2 **********/
 #section-2{
   background-image: url('../img/city.jpg');
-  height: 500px;
+  height: 600px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   color: #fff;
-  z-index: -9999;
+  z-index: -1000;
+  border: 1px solid red;
 }
 
 #overlay, #testimonial-overlay{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   background: rgba(0,0,0,0.6);
-  z-index: -9999;
+  /* z-index: -9999; */
 }
 
 #overlay h1, #testimonial-overlay h2{
@@ -578,42 +581,39 @@ body{
   padding-bottom: 70px;
   text-align: center;
   font-family: 'raleway', Helvetica, sans-serif;
-  z-index: -9999;
+}
+
+#icon-row{
+  border: 1px solid green;
 }
 
 .section-2-col{
+  border: 1px solid purple;
   text-align: center;
-  z-index: -9999;
 }
 
-.section-2-icon{
-  border: 1px solid #07d4de;
-  color: #07d4de;
-  padding: 15%;
-  font-size: 30px;
-  border-radius: 100%;
-  margin-bottom: 10px;
-  z-index: -9999;
-}
-
-.section-2-icon:hover{
-  border: none;
-  background-color: #07d4de;
-  transition: ease-in 0.2s;
+ .section-2-icon{
+  border: 1px solid #fff;
   color: #fff;
+  padding: 15%;
+  font-size: 40px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+  
 }
 
-.section-2-col h3{
+
+/*.section-2-col h3{
   padding-bottom: 15px;
   z-index: -9999;
-}
+} */
 
 
-#section-3{
+/* #section-3{
   width: 100%;
   height: 200px;
   z-index: -9999;
-}
+} */
 
 
 /********** Testimonial **********/
@@ -847,11 +847,11 @@ font-size: 12px;
   }  
 
   .col-sm-12 > h1{
-    font-size: 400%;
+    font-size: 450%;
   }
 
   .col-sm-12 > h3{
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #section-1-row{
@@ -863,6 +863,33 @@ font-size: 12px;
     width:100%;
   }
   
+  .container-fluid{
+    height: 750px;
+    background-attachment: scroll;
+    opacity: 0.85;
+    /* margin-bottom: 5%; */
+    /* border: 1px solid red; */
+  }
+
+  #section-2{
+    height: 1100px;
+    background-attachment: scroll;
+  }
+   #icon-row{
+     padding-left: 25%;
+     padding-right: 25%;
+   }
+
+   .section-2-col{
+     margin-bottom: 5%;
+   }
+   .section-2-icon{
+    padding: 10%;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    
+  }
 
 }
 
@@ -924,7 +951,7 @@ font-size: 12px;
   #logo{
     width: 50px;
     height: 50px; 
-} 
+  } 
 
   .col-sm-12{
     height: 400px;
@@ -948,6 +975,31 @@ font-size: 12px;
   #button3{
     width: 300px;
   } 
+
+  #section-2{
+    height: 1200px;
+    background-attachment: scroll;
+  }
+
+  #section-2 #overlay h1{
+    font-size: 30px;
+  }
+
+   #icon-row{
+     padding-left: 20%;
+     padding-right: 20%;
+   }
+
+   .section-2-col{
+     margin-bottom: 5%;
+   }
+   .section-2-icon{
+    padding: 15%;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    
+  }
 }
 
 
