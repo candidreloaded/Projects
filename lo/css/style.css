@@ -534,22 +534,16 @@ body{
 
 #wrap-2{
   width: 100%;
-  border: 1px solid green;
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
-  /* padding-left: 5%;
-  padding-right: 5%; */
 }
 #button3{
-  /* margin: 5%;  */
-  /* padding: 20px 40px; */
   border-radius: 0;
   width: 360px;
   text-decoration: none;
   color: #000;
   border: 2px solid #000;
-  /* text-align: center; */
 } 
 
 #button3:hover{
