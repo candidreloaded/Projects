@@ -873,7 +873,7 @@ font-size: 12px;
 
   #section-2{
     height: 1100px;
-    background-attachment: scroll;
+    background-attachment: none;
   }
    #icon-row{
      padding-left: 25%;
