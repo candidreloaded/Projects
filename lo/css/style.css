@@ -826,10 +826,11 @@ a i{
 a i:hover{
   color: white;
 }
+
 #copyright{
-font-family: 'Raleway', sans-serif;
-color: #fff;
-font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 12px;
 } 
 
 
@@ -970,7 +971,7 @@ font-size: 12px;
   }
 
   .owl-theme .owl-controls{
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .testimonial .testimonial-title a{
