@@ -1,8 +1,8 @@
 // Code on main Section 
 $(window).load(function(){
-    $('#page_loader').hide(function(){
-        $('$intro_page').slideUp(10000);
-    });
+    // $('#page_loader').hide(function(){
+    //     $('$intro_page').slideUp(10000);
+    // });
 
     $("#testimonial-slider").owlCarousel({
         items:1,
@@ -16,6 +16,16 @@ $(window).load(function(){
         navigationText:["",""],
         autoPlay:true
     });
+
+ // Prevent background scrolling
+    $('.burg-toggle').click(function(e){
+        $(document.body).addClass('fixedposition');
+    });
+        
+    $('.close-button').click(function(e){
+        $(document.body).removeClass('fixedposition');
+    });
+
 });
 
 

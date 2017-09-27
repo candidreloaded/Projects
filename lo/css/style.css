@@ -8,11 +8,11 @@
 }
 
 body{
-    /* width: 100%; */
+    
     font-family: 'lato', sans-serif;
-    /* overflow-y: hidden;*/
+
     overflow-x: hidden; 
-    /* background: #000; */
+
 }
 /* LOADING PAGE */
 /* .loading{
@@ -172,6 +172,11 @@ body{
 #logo_header{
     width: 80px;
     height: 80px;
+}
+
+.fixedposition{
+  position: fixed;
+  /* overflow: hidden; */
 }
 
 .menu-full {
