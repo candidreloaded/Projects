@@ -552,7 +552,7 @@ body{
 } 
 
 
-/********** section-2 and 4 **********/
+/********** section-2 **********/
 
 #section-2{
   background-image: url('../img/city.jpg');
@@ -627,6 +627,10 @@ body{
   color: #fff;
   z-index: -9999;
   opacity: 0.9;
+}
+
+#section-4 .row{
+  width: 100%;
 }
 
 #section-4 .row h2{
