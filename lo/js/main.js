@@ -24,3 +24,11 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+
+$(document).ready(function(){ 
+    //Portfolio categories
+    $('.port_cat').on('click', function(){
+       $('.port_cat').removeClass('active');
+            $(this).addClass('active');
+    });
+});
