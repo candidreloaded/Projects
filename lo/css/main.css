@@ -260,7 +260,8 @@ margin-top: 0;
 }
 #section-block ul li{
     display: inline-block;
-    font-family: 'Orbitron', sans-serif; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px; 
     letter-spacing: 2px;
     padding: 10px;
     margin: 10px;
@@ -288,17 +289,11 @@ margin-top: 0;
     /* z-index: -9999; */
 }
 
-
-
-
-
-
-
-
-
-  
-
-
+#section-block-2{
+    background: #07d4de;
+    width: 100%;
+    height: 100px;
+}
 
   /********** Footer  **********/
 #footerButton{
