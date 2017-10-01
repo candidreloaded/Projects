@@ -235,7 +235,7 @@ margin-top: 0;
     /* height: 400px; */
     text-align: center;
     margin-top: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .col-sm-12 > h1{
     font-family: 'Lato', sans-serif;    
@@ -280,7 +280,7 @@ margin-top: 0;
 .container{
     width: 100%;
     /* margin-top: 10%; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
   
 .section-1-port{
@@ -343,3 +343,109 @@ margin-top: 0;
     color: #fff;
     font-size: 12px;
   } 
+
+
+
+  /******* DEVICE SCREEN MEDIA QUERIES  ********/
+@media (min-width: 768px) and (max-width: 991px){
+  }
+  
+
+@media (max-width: 767px){
+    #logo{
+    width: 60px;
+    height: 60px; 
+    }  
+
+    .col-sm-12 > h1{
+    font-size: 450%;
+    }
+
+    .col-sm-12 > h3{
+    font-size: 20px;
+    }
+
+    /* Portfolio */
+    .section-1-port{
+    width: 50%;
+    }
+    .col-md-4{
+        width: 100%;
+    }
+}
+
+@media (max-width: 602px){
+    
+    .col-sm-12 > h1{
+        font-size: 400%;
+    }
+    .col-sm-12 > h3{
+        font-size: 20px;
+    }
+
+    #section-block ul li{
+        font-size: 10px; 
+     }
+    /* Portfolio */
+    .section-1-port{
+        width:100%;
+    }
+
+    .flyers{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+}
+
+@media (max-width: 575px){
+   
+    .col-sm-12 > h1{
+        font-size: 300%;
+    }
+
+    .col-sm-12 > h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 448px){
+    .container-fluid{
+        width: 100%;
+        height: 400px;
+    }
+
+    #logo{
+        width: 50px;
+        height: 50px; 
+    } 
+
+    .col-sm-12{
+        height: 100px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    #section-block h2{
+        font-size: 60%;
+    }
+
+    .col-sm-12 > h1{
+        font-size: 230%;
+    }
+
+    /* Portfolio */
+    .flyers{
+        width: 100%;
+        padding: 0;
+    }
+
+    .col-sm-12 > h3{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+  
