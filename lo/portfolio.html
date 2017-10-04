@@ -7,6 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="css/ihover.min.css" rel="stylesheet"> 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -52,120 +53,191 @@
     </div>
 </div>
 
-<div id="section-block">
-    <ul> 
-        <li class="port_cat active" id="cat-all">ALL</li>
-        <li class="port_cat" id="cat-branding">BRANDING</li>
-        <li class="port_cat" id="cat-web">WEB & UI</li>
-        <li class="port_cat" id="cat-wireframe">WIREFRAME</li>
-        <li class="port_cat" id="cat-other">OTHERS</li>
-    </ul>
-</div>
+
+ 
 <!-- SECTION 1 -->
 <div class="container" id="section-1">
     <div class="row" id="section-1-row">
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/bams.jpg" alt="">        
-        </div>  
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/davidchus.jpg" alt="">  
+        <div id="section-block">
+            <ul> 
+                <li class="port_cat active" data-filter="all">ALL</li>
+                <li class="port_cat"  data-filter="website">WEBSITE</li>
+                <li class="port_cat" data-filter="graphics">GRAPHICS</li>
+                <li class="port_cat" data-filter="logo">LOGO</li>
+                <li class="port_cat" data-filter="ui-design">UI DESIGN</li>
+                <li class="port_cat" data-filter="application">APPLICATION</li>
+            </ul>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/musicapp.jpg" alt="">  
+
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/bams.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
+        </div> 
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter ui-design">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/musicapp.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img  class="img-responsive" src="img/weatherapp.jpg" alt="">
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter website">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/davidchus.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/msl.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter ui-design">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/weatherapp.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/magazine.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/msl.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
+        </div> 
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter graphics">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/magazine.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/gistville.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter website">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/gistville.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/mapicon.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter graphics">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/mapicon.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/loimage.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/lo.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
+        </div> 
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter website">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/singlepageweb.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/singlepageweb.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/wi.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/wi.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/boom.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/boom.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter graphics">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/magazine2.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
+        </div> 
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter graphics">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/innerpagemag.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/magazine2.jpg" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter logo">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/legacy.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/legacy.jpg" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/innerpagemag.jpg" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/travelapp.jpg" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/bank-with-ease2.png" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/sme1.jpg" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/great-taste.png" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/sme2.png" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/your-vault.jpg" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/sme3.png" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/traffic.png" alt="">  
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port flyers">
-            <img class="img-responsive" src="img/sme4.png" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/sport-banner.jpg" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/Banner3.png" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/gym-banner.jpg" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/Banner2.png" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/weight.jpg" alt="">  
-        </div>
-        <div class="col-md-4 col-xs-12 section-1-port">
-            <img class="img-responsive" src="img/Banner1.png" alt="">  
+        <div class="col-md-3 col-sm-6 col-xs-12 section-1-port filter ui-design">
+            <figure class="port-img">
+                <img class="img-responsive" src="img/travelapp.jpg" alt=""> 
+                <figcaption>
+                    <h2>If your <span>knees</span> aren't <span>green</span></h2>
+                    <p>By the end of the day, you ought to seriously re-examine your life.</p>
+                    <a href="#"></a>
+                </figcaption>			
+            </figure>
         </div>
     </div>
 </div>
 
 <div id="section-block-2"></div>
         
-
-
-
     <!-- FOOTER -->
 <footer id="bottomFooter">
-        <a href="home.html" title="Footer Logo"><img id="footerLogo" src="img/logo9.png" alt="Logo"></a>
-        <div class="social">
+    <a href="home.html" title="Footer Logo"><img id="footerLogo" src="img/logo9.png" alt="Logo"></a>
+    <div class="social">
         <a href="https://www.instagram.com/omo_lamina" target="_blank" title="Follow me on Instagram"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
         <a href="https://github.com/candidreloaded" target="_blank" title="Fork Me on GitHub"><i class="fa fa-github icon" aria-hidden="true"></i></a>
         <a href="https://linkedin.com/in/lamina-olawale-74157370" target="_blank" title="LinkedIn Page"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
@@ -173,12 +245,6 @@
     <p id="copyright">Handmade by me &copy; 2017<b> | Lamina Olawale</b></p>
 </footer>
     
-
-    
-
-
-
-
 <!-- JAVASCRIPT -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
