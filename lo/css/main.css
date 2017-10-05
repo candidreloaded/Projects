@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee|Orbitron:400,500,700,900');
 
 * {
-  box-sizing: border-box;
-  padding:0;
-  margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
 }
 body{
-  font-family: 'lato', sans-serif;
-  overflow-x: hidden; 
+    font-family: 'lato', sans-serif;
+    overflow-x: hidden; 
 }
 
 /****** INTRO SECTION ******/
@@ -89,59 +89,59 @@ body{
 }
 
 .menu-full > div {
-display: table;
-width: 100%;
-height: 100%;
+    display: table;
+    width: 100%;
+    height: 100%;
 }
 
 .menu-full > div > div {
-display: table-cell;
-vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .menu-full > div > div > div {
-margin-left: auto;
-margin-right: auto;
-max-width: 720px;
-text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    text-align: center;
 }
 .menu-full ul {
-list-style: none;
-margin: 0;
-padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .menu-full ul li {
-list-style: none;
+    list-style: none;
 }
 .menu-full ul li a {
-display: inline-block;
-font-family: 'Orbitron', sans-serif; 
-text-decoration: none;
-color: #07d4de;
-font-size: 30px;
-text-transform: uppercase;
-letter-spacing: 15px;
-line-height: 3em;
-padding: 5px 0;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif; 
+    text-decoration: none;
+    color: #07d4de;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 3em;
+    padding: 5px 0;
 }
 .menu-full ul li a:hover {
-color: #fff;
+    color: #fff;
 }
 .menu-full ul li ul {
-transition: all 0.3s ease-in-out;
-visibility: hidden;
-opacity: 0;
-margin-top: -2em;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -2em;
 }
 .menu-full ul li ul li {
-display: inline-block;
+    display: inline-block;
 }
 .menu-full ul li ul li a {
-color: #BBB;
-font-size: 18px;
-text-transform: lowercase;
-line-height: 1em;
-padding: 0 20px 10px;
+    color: #BBB;
+    font-size: 18px;
+    text-transform: lowercase;
+    line-height: 1em;
+    padding: 0 20px 10px;
 }
 .menu-full ul li ul li a:hover {
 color: #666;
@@ -289,9 +289,6 @@ background: #07d4de;
     /* z-index: -9999; */
 }
 
-
-
-
 figure.port-img {
     font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
@@ -358,6 +355,7 @@ figure.port-img {
   }
   figure.port-img h2 span {
     font-weight: 800;
+    padding: 3px;
   }
   figure.port-img p {
     font-weight: 200	;
