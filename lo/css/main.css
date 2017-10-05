@@ -147,48 +147,48 @@ body{
 color: #666;
 }
 .menu-full ul li a:hover + ul, .menu-full ul li ul:hover {
-transition: all 0.3s ease-in-out;
-visibility: visible;
-opacity: 1;
-margin-top: 0em;
+    transition: all 0.3s ease-in-out;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0em;
 }
 .menu-full .close-button {
-width: 34px;
-height: 34px;
-position: absolute;
-top: 20px;
-right: 20px;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 .menu-full .close-button span {
-position: absolute;
-margin: 0 auto;
-border: 2px solid #07d4de;
-background: transparent;
-border-radius: 20px;
-padding: 15px 20px 15px;
-cursor: pointer;
-width: 30px;
-height: 30px;
-transition: all 0.3s ease-in-out;
+    position: absolute;
+    margin: 0 auto;
+    border: 2px solid #07d4de;
+    background: transparent;
+    border-radius: 20px;
+    padding: 15px 20px 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease-in-out;
 }
 .menu-full .close-button span:hover {
-border: 2px solid #07d4de;
-transition: all 0.3s ease-in-out;
+    border: 2px solid #07d4de;
+    transition: all 0.3s ease-in-out;
 }
 .menu-full .close-button span:after, .menu-full .close-button span:before {
-position: absolute;
-top: 3px;
-right: 3px;
-bottom: 0;
-left: 50%;
-transform: rotate(45deg) translateX(0) translateY(0);
-height: 25px;
-width: 2px;
-background: #07d4de;
-content: '';
-display: block;
-margin: 0 0 0 -1px;
-transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: rotate(45deg) translateX(0) translateY(0);
+    height: 25px;
+    width: 2px;
+    background: #07d4de;
+    content: '';
+    display: block;
+    margin: 0 0 0 -1px;
+    transition: all 0.3s ease-in-out;
 }
 .menu-full .close-button span:hover:after, .menu-full .close-button span:hover:before {
 background: #07d4de;
@@ -395,12 +395,35 @@ figure.port-img {
   }
   
   
-
 #section-block-2{
     background: #07d4de;
     width: 100%;
-    height: 100px;
+    height: 200px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
 }
+
+#button{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px; 
+    letter-spacing: 2px;
+    border-radius: 0;
+    width: 360px;
+    height: 70px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding-top: 25px;
+    padding-bottom: px;
+    
+} 
+#button:hover{
+  color: #fff;
+  border: 2px solid #000;
+  background-color: #000;
+  transition: ease-in-out;
+} 
 
   /********** Footer  **********/
 #footerButton{
