@@ -25,7 +25,6 @@ body{
     height: 100%;
     position: relative;
     background: rgba(0, 0, 0, 0.6);
-    /* z-index: -1000; */
 }
 
 /****** NAVIGATION BAR ******/ 
@@ -35,7 +34,6 @@ body{
     padding-left: 2%;
     padding-right: 2%;
     background: transparent;
-    /* z-index: 9999; */
 }
 .burg-toggle {
     background: transparent;
@@ -144,7 +142,7 @@ body{
     padding: 0 20px 10px;
 }
 .menu-full ul li ul li a:hover {
-color: #666;
+    color: #666;
 }
 .menu-full ul li a:hover + ul, .menu-full ul li ul:hover {
     transition: all 0.3s ease-in-out;
@@ -205,7 +203,7 @@ background: #07d4de;
     width: 2px;
     transition: all 0.3s ease-in-out;
 }
-    .menu-full .close-button span:before {
+.menu-full .close-button span:before {
     transform: rotate(-45deg) translateX(0) translateY(0);
 }
 .menu-full:target {
@@ -232,10 +230,8 @@ background: #07d4de;
  
 
 .col-sm-12{
-    /* height: 400px; */
     text-align: center;
     margin-top: 200px;
-    /* border: 1px solid red; */
 }
 .col-sm-12 > h1{
     font-family: 'Lato', sans-serif;    
@@ -256,7 +252,7 @@ background: #07d4de;
     padding-top: 80px;
 }
 #section-block ul{
-   list-style: none;
+    list-style: none;
 }
 #section-block ul li{
     display: inline-block;
@@ -279,49 +275,41 @@ background: #07d4de;
 /****** PORTFOLIO ******/
 .container{
     width: 100%;
-    /* margin-top: 10%; */
-    /* border: 1px solid red; */
 }
   
 .section-1-port{
     box-sizing: border-box;
     padding: 0;
-    /* z-index: -9999; */
 }
 
 figure.port-img {
     font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
     position: relative;
-    /* float: left; */
     overflow: hidden;
-    /* margin: 10px 1%; */
-    /* min-width: 220px;
-    max-width: 310px;
-    max-height: 220px; */
     width: 100%;
     background: #000000;
     text-align: center;
-  }
-  figure.port-img * {
+}
+figure.port-img * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  figure.port-img img {
+}
+figure.port-img img {
     opacity: 1;
     width: 100%;
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
-  }
-  figure.port-img figcaption {
+}
+figure.port-img figcaption {
     position: absolute;
     bottom: 0;
     left: 0;
     padding: 3em 3em;
     width: 100%;
     height: 100%;
-  }
-  figure.port-img figcaption::before {
+}
+figure.port-img figcaption::before {
     position: absolute;
     top: 50%;
     right: 30px;
@@ -336,15 +324,14 @@ figure.port-img {
     transition: all 0.4s;
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
-  }
-  figure.port-img h2,
-  figure.port-img p {
+}
+figure.port-img h2, figure.port-img p {
     margin: 0 0 5px;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
-  }
-  figure.port-img h2 {
+}
+figure.port-img h2 {
     word-spacing: -0.15em;
     font-weight: 300;
     text-transform: uppercase;
@@ -352,49 +339,48 @@ figure.port-img {
     transform: translate3d(0%, 50%, 0);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
-  }
-  figure.port-img h2 span {
+}
+figure.port-img h2 span {
     font-weight: 800;
     padding: 3px;
-  }
-  figure.port-img p {
+}
+figure.port-img p {
     font-weight: 200	;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-  }
-  figure.port-img a {
+}
+figure.port-img a {
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     position: absolute;
     color: #ffffff;
-  }
-  figure.port-img:hover img {
+}
+figure.port-img:hover img {
     opacity: 0.35;
-  }
-  figure.port-img:hover figcaption h2 {
+}
+figure.port-img:hover figcaption h2 {
     opacity: 1;
     -webkit-transform: translate3d(0%, 0%, 0);
     transform: translate3d(0%, 0%, 0);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
-  }
-  figure.port-img:hover figcaption p {
+}
+figure.port-img:hover figcaption p {
     opacity: 0.9;
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
-  }
-  figure.port-img:hover figcaption::before {
+}
+figure.port-img:hover figcaption::before {
     background: rgba(255, 255, 255, 0);
     top: 30px;
     bottom: 30px;
     opacity: 1;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-  }
-  
-  
+}
+
 #section-block-2{
     background: #07d4de;
     width: 100%;
@@ -403,11 +389,10 @@ figure.port-img {
     padding-bottom: 50px;
     text-align: center;
 }
-
 #button{
     font-family: 'Orbitron', sans-serif;
-    font-size: 16px; 
-    letter-spacing: 2px;
+    font-size: 14px; 
+    letter-spacing: 3px;
     border-radius: 0;
     width: 360px;
     height: 70px;
@@ -419,10 +404,10 @@ figure.port-img {
     
 } 
 #button:hover{
-  color: #fff;
-  border: 2px solid #000;
-  background-color: #000;
-  transition: ease-in-out;
+    color: #fff;
+    border: 2px solid #000;
+    background-color: #000;
+    transition: ease-in-out;
 } 
 
   /********** Footer  **********/
@@ -433,11 +418,11 @@ figure.port-img {
     width: 100%;
     height: 50px;
     font-size: 20px;
-  }
-  #footerButton:hover{
+}
+#footerButton:hover{
     background-color: #1fc1b9;
-  }
-  #bottomFooter{
+}
+#bottomFooter{
     width: 100%;
     height: 300px; 
     padding: 150px 100px;
@@ -446,33 +431,33 @@ figure.port-img {
     font-size: 14px;
     text-align: center;
     display: inline-block;
-  }
-  #footerLogo{
+}
+#footerLogo{
     width: 60px;
     height: 60px;
     margin-bottom: 2%;
-  }
-  .social{
+}
+.social{
     font-size: 25px;
     text-align: center;
     padding-left:5px;
-  }
-  .social .icon{
+}
+.social .icon{
     padding-left: 5px;
-  }
-  a i{
+}
+a i{
     color: #07ded4;
     border: none !important;
     border-radius: none !important;
-  }
-  a i:hover{
+}
+a i:hover{
     color: white;
-  }
-  #copyright{
+}
+#copyright{
     font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size: 12px;
-  } 
+} 
 
 
 
@@ -576,5 +561,8 @@ figure.port-img {
     .col-sm-12 > h3{
         font-size: 12px;
         line-height: 20px;
+    }
+    #button{
+        width: 300px;
     }
 }
