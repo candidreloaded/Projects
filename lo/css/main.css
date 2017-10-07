@@ -11,7 +11,7 @@ body{
 }
 
 /****** INTRO SECTION ******/
-.container-fluid{
+#intro_page{
     width: 100%;
     height: 650px;
     background: url('../img/portbg.jpg');
@@ -189,7 +189,7 @@ body{
     transition: all 0.3s ease-in-out;
 }
 .menu-full .close-button span:hover:after, .menu-full .close-button span:hover:before {
-background: #07d4de;
+    background: #07d4de;
 }
 .menu-full .close-button span:hover:after {
     transform: rotate(-405deg) translateX(2px) translateY(5px);
@@ -264,11 +264,11 @@ background: #07d4de;
     border: 1px solid #000;
     cursor: pointer;
  }
- #section-block ul li:hover{
+#section-block ul li:hover{
     background: #000;
     color: #fff;
  }
- .active{
+.active{
     background: #000;
     color: #fff; 
  }
@@ -410,7 +410,72 @@ figure.port-img:hover figcaption::before {
     transition: ease-in-out;
 } 
 
-  /********** Footer  **********/
+/********** About US  **********/
+#about_page{
+    width: 100%;
+    height: 650px;
+    background: url('../img/aboutbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+#articleRow{
+    padding: 100px 150px;
+    font-size: 16px;
+    background-color: #07d4de;;
+    width: 100%;
+}
+
+#skills h4{
+ text-align: center;
+}
+
+#sentence{
+    padding-right: 25px;
+}
+
+#skills{
+    padding-left: 25px;
+}
+
+#sentence, #techniques{
+    text-align: justify;
+}
+
+#sentence h1{
+    text-align: start;
+}
+
+#sentence h1, #sentence h3, #sentence h4, .col-sm-6 h3{
+    font-family: 'raleway', Helvetica, sans-serif;
+}
+
+#sentence h3, .col-sm-6 h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+ol{
+    padding-left: 30px;
+}
+article .row .col-sm-6{
+    padding: 20px 30px 20px 30px;
+}
+.devIcon{
+    padding-left: 20px;
+    padding-bottom: 20px;
+} 
+.devIcon:hover{
+        -webkit-animation-name: shake;
+        animation: shake;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+}
+
+
+
+/********** Footer  **********/
 #footerButton{
     background-color: #07ded4;
     color: #000;
@@ -463,6 +528,9 @@ a i:hover{
 
   /******* DEVICE SCREEN MEDIA QUERIES  ********/
 @media (min-width: 768px) and (max-width: 991px){
+    #articleRow{
+        padding: 100px 100px;
+    }
   }
   
 
@@ -486,6 +554,11 @@ a i:hover{
     }
     .col-md-4{
         width: 100%;
+    }
+
+    /* About */
+    #articleRow{
+        padding: 100px 50px;
     }
 }
 
@@ -564,5 +637,10 @@ a i:hover{
     }
     #button{
         width: 300px;
+    }
+
+    /* about */
+    #articleRow{
+        padding: 100px 25px;
     }
 }
