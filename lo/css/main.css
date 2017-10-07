@@ -475,7 +475,6 @@ article .row .col-sm-6{
 
 
 /* Contact page */
-
 #contact_page{
     background: url('../img/contactbg.jpg');
     background-size: cover;
@@ -496,9 +495,9 @@ article .row .col-sm-6{
     color: red;
 }
 
-
-
-
+body > div.contact > div > div.col-sm-12{
+    margin-top: 0%;
+}
 
 
 /********** Footer  **********/
