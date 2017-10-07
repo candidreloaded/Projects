@@ -10,15 +10,10 @@ body{
     overflow-x: hidden; 
 }
 
-/****** INTRO SECTION ******/
-#intro_page{
+#port_page, #about_page, #contact_page{
     width: 100%;
-    height: 650px;
-    background: url('../img/portbg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    height: 650px;    
     padding: 0;
-    
   }
 .overlay{
     width: 100%;
@@ -26,6 +21,14 @@ body{
     position: relative;
     background: rgba(0, 0, 0, 0.6);
 }
+
+/****** INTRO SECTION ******/
+#port_page{
+    background: url('../img/portbg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
 
 /****** NAVIGATION BAR ******/ 
 #nav-wrapper{
@@ -410,14 +413,11 @@ figure.port-img:hover figcaption::before {
     transition: ease-in-out;
 } 
 
-/********** About US  **********/
+/********** About page  **********/
 #about_page{
-    width: 100%;
-    height: 650px;
     background: url('../img/aboutbg.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 0;
 }
 
 #articleRow{
@@ -472,6 +472,32 @@ article .row .col-sm-6{
         -webkit-animation-duration: 1s;
         animation-duration: 1s;
 }
+
+
+/* Contact page */
+
+#contact_page{
+    background: url('../img/contactbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact{
+    width: 100%;
+    background-color: #07d4de;
+    padding-top: 100px;
+}
+
+.contact-form{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.star{
+    color: red;
+}
+
+
+
 
 
 
@@ -531,6 +557,11 @@ a i:hover{
     #articleRow{
         padding: 100px 100px;
     }
+
+    .contact-form{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
   }
   
 
@@ -559,6 +590,12 @@ a i:hover{
     /* About */
     #articleRow{
         padding: 100px 50px;
+    }
+
+    /* contact */
+    .contact-form{
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 
@@ -642,5 +679,11 @@ a i:hover{
     /* about */
     #articleRow{
         padding: 100px 25px;
+    }
+
+    /* contact */
+    .contact-form{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
