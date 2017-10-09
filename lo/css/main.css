@@ -467,10 +467,10 @@ article .row .col-sm-6{
     padding-bottom: 20px;
 } 
 .devIcon:hover{
-        -webkit-animation-name: shake;
-        animation: shake;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
+    -webkit-animation-name: shake;
+    animation: shake;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 
